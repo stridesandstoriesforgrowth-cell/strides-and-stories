@@ -133,7 +133,7 @@ export default function StridesAndStoriesLanding() {
           <div className="flex flex-col md:flex-row justify-between items-start gap-10">
             <div>
               <p className="uppercase tracking-[0.2em] text-orange-500 text-sm font-semibold">
-                Upcoming Meetup
+                Upcoming Meetup and Run
               </p>
               <h3 className="text-4xl font-bold mt-3">
                 Sunday Sunrise Run ☀️
@@ -155,9 +155,13 @@ export default function StridesAndStoriesLanding() {
 >
   Enquiry Form
 </a>
-              <button className="rounded-3xl border border-slate-300 px-8 py-4 font-medium bg-white">
-                Follow Instagram
-              </button>
+              <a
+  href="https://www.instagram.com/ram_avsr/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-3xl border border-slate-300 px-8 py-4 font-medium bg-white inline-block text-center"
+>
+  Follow Us on Instagram
             </div>
           </div>
         </div>
