@@ -31,7 +31,7 @@ export default function StridesAndStoriesLanding() {
   rel="noopener noreferrer"
   className="rounded-3xl bg-slate-900 px-7 py-4 text-white font-medium shadow-xl hover:scale-105 transition-transform inline-block"
 >
-  Join This Sunday
+  Join the community on WhatsApp
 </a>
             
             </div>
