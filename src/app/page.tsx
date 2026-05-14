@@ -47,7 +47,7 @@ export default function StridesAndStoriesLanding() {
                   <div className="text-6xl mb-5">🌅</div>
                   <h3 className="text-3xl font-bold">Sunday Sunrise Runs</h3>
                   <p className="mt-4 text-slate-600">
-                    Easy-paced 4K • Coffee • Conversations • Community
+                    Easy-paced 3K • Coffee • Conversations • Community
                   </p>
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function StridesAndStoriesLanding() {
               <div className="mt-5 space-y-2 text-slate-600 text-lg">
                 <p>📍 Saroornagar Lake</p>
                 <p>🕕 Sunday • 6:00 AM</p>
-                <p>🏃 Easy 4K Run</p>
+                <p>🏃 Easy 3K Run</p>
                 <p>☕ Coffee & Conversations After</p>
               </div>
             </div>
@@ -175,4 +175,3 @@ export default function StridesAndStoriesLanding() {
     </div>
   )
 }
-
