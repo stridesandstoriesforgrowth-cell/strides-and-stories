@@ -50,7 +50,7 @@ export default function StridesAndStoriesLanding() {
                   <div className="text-6xl mb-5">🌅</div>
                   <h3 className="text-3xl font-bold">Sunday Sunrise Runs</h3>
                   <p className="mt-4 text-slate-600">
-                    Easy-paced 4K • Coffee • Conversations • Community
+                    Easy-paced Runs • Coffee • Conversations • Community
                   </p>
                 </div>
               </div>
