@@ -167,7 +167,39 @@ export default function StridesAndStoriesLanding() {
           </div>
         </div>
       </section>
+<section className="max-w-6xl mx-auto px-6 py-24">
+  <div className="text-center">
+    <h2 className="text-4xl font-bold">
+      Community Momentum
+    </h2>
 
+    <p className="mt-4 text-slate-600 text-lg">
+      Every stride counts. Every story matters.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-4 gap-6 mt-14">
+    {[
+      { number: "42+", label: "Members" },
+      { number: "118", label: "Runs Completed" },
+      { number: "612 KM", label: "Distance Covered" },
+      { number: "96", label: "Coffee Conversations" },
+    ].map((item) => (
+      <div
+        key={item.label}
+        className="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 text-center"
+      >
+        <h3 className="text-4xl font-bold text-orange-500">
+          {item.number}
+        </h3>
+
+        <p className="mt-3 text-slate-600">
+          {item.label}
+        </p>
+      </div>
+    ))}
+  </div>
+</section>
       {/* Gallery Placeholder */}
       <section className="max-w-6xl mx-auto px-6 pb-24">
         <div className="text-center">
