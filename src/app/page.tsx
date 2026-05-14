@@ -25,9 +25,14 @@ export default function StridesAndStoriesLanding() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <button className="rounded-3xl bg-slate-900 px-7 py-4 text-white font-medium shadow-xl hover:scale-105 transition-transform">
-                Join This Sunday
-              </button>
+              <a
+  href="https://chat.whatsapp.com/LdLcDdZpvq64VFBKoOrN31"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-3xl bg-slate-900 px-7 py-4 text-white font-medium shadow-xl hover:scale-105 transition-transform inline-block"
+>
+  Join This Sunday
+</a>
               <button className="rounded-3xl border border-slate-300 bg-white px-7 py-4 font-medium hover:bg-slate-50 transition">
                 View Route
               </button>
