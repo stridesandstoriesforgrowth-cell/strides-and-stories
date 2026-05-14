@@ -33,9 +33,7 @@ export default function StridesAndStoriesLanding() {
 >
   Join This Sunday
 </a>
-              <button className="rounded-3xl border border-slate-300 bg-white px-7 py-4 font-medium hover:bg-slate-50 transition">
-                View Route
-              </button>
+            
             </div>
 
             <div className="mt-10 flex gap-8 text-sm text-slate-600 flex-wrap">
