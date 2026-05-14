@@ -147,9 +147,14 @@ export default function StridesAndStoriesLanding() {
             </div>
 
             <div className="flex flex-col gap-4 w-full md:w-auto">
-              <button className="rounded-3xl bg-orange-500 px-8 py-4 text-white font-semibold hover:scale-105 transition-transform shadow-lg">
-                RSVP on WhatsApp
-              </button>
+              <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSdt5eQM2KUDJBH1k5b3J-yo5xF0mVRJNeZkwRALDDNemrBZ5Q/viewform?usp=sharing&ouid=110479622328061567755"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-3xl bg-orange-500 px-8 py-4 text-white font-semibold hover:scale-105 transition-transform shadow-lg inline-block text-center"
+>
+  Enquiry Form
+</a>
               <button className="rounded-3xl border border-slate-300 px-8 py-4 font-medium bg-white">
                 Follow Instagram
               </button>
