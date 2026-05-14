@@ -162,6 +162,7 @@ export default function StridesAndStoriesLanding() {
   className="rounded-3xl border border-slate-300 px-8 py-4 font-medium bg-white inline-block text-center"
 >
   Follow Us on Instagram
+</a>
             </div>
           </div>
         </div>
