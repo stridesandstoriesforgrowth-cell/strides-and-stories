@@ -21,7 +21,7 @@ export default function StridesAndStoriesLanding() {
             </p>
 
             <p className="mt-6 text-lg text-slate-600 max-w-2xl leading-relaxed">
-              We’re building meaningful weekends around Saroornagar — easy social runs, coffee, breakfast, and conversations that turn strangers into friends.
+              We’re building meaningful weekends in Saroornagar — easy social runs, coffee, breakfast, and conversations that turn strangers into friends.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -31,9 +31,11 @@ export default function StridesAndStoriesLanding() {
   rel="noopener noreferrer"
   className="rounded-3xl bg-slate-900 px-7 py-4 text-white font-medium shadow-xl hover:scale-105 transition-transform inline-block"
 >
-  Join the community
+  Join This Sunday
 </a>
-            
+              <button className="rounded-3xl border border-slate-300 bg-white px-7 py-4 font-medium hover:bg-slate-50 transition">
+                View Route
+              </button>
             </div>
 
             <div className="mt-10 flex gap-8 text-sm text-slate-600 flex-wrap">
@@ -50,7 +52,7 @@ export default function StridesAndStoriesLanding() {
                   <div className="text-6xl mb-5">🌅</div>
                   <h3 className="text-3xl font-bold">Sunday Sunrise Runs</h3>
                   <p className="mt-4 text-slate-600">
-                    Easy-paced Runs • Coffee • Conversations • Community
+                    Easy-paced 4K • Coffee • Conversations • Community
                   </p>
                 </div>
               </div>
@@ -133,7 +135,7 @@ export default function StridesAndStoriesLanding() {
           <div className="flex flex-col md:flex-row justify-between items-start gap-10">
             <div>
               <p className="uppercase tracking-[0.2em] text-orange-500 text-sm font-semibold">
-                Upcoming Meetup and Run
+                Upcoming Meetup
               </p>
               <h3 className="text-4xl font-bold mt-3">
                 Sunday Sunrise Run ☀️
@@ -147,14 +149,9 @@ export default function StridesAndStoriesLanding() {
             </div>
 
             <div className="flex flex-col gap-4 w-full md:w-auto">
-              <a
-  href="https://docs.google.com/forms/d/e/1FAIpQLSdt5eQM2KUDJBH1k5b3J-yo5xF0mVRJNeZkwRALDDNemrBZ5Q/viewform?usp=sharing&ouid=110479622328061567755"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="rounded-3xl bg-orange-500 px-8 py-4 text-white font-semibold hover:scale-105 transition-transform shadow-lg inline-block text-center"
->
-  Enquiry Form
-</a>
+              <button className="rounded-3xl bg-orange-500 px-8 py-4 text-white font-semibold hover:scale-105 transition-transform shadow-lg">
+                RSVP on WhatsApp
+              </button>
               <a
   href="https://www.instagram.com/ram_avsr/"
   target="_blank"
@@ -167,40 +164,44 @@ export default function StridesAndStoriesLanding() {
           </div>
         </div>
       </section>
-<section className="max-w-6xl mx-auto px-6 py-24">
-  <div className="text-center">
-    <h2 className="text-4xl font-bold">
-      Community Momentum
-    </h2>
 
-    <p className="mt-4 text-slate-600 text-lg">
-      Every stride counts. Every story matters.
-    </p>
-  </div>
+      {/* Countdown Section */}
+      <section className="max-w-6xl mx-auto px-6 py-20">
+        <div className="rounded-[2.5rem] bg-slate-900 text-white p-10 md:p-14 text-center shadow-xl">
+          <p className="uppercase tracking-[0.2em] text-orange-400 text-sm font-semibold">
+            Next Sunday Run
+          </p>
+          <h2 className="mt-4 text-4xl md:text-5xl font-bold">
+            Countdown to the Next Stride ⏳
+          </h2>
+          <p className="mt-4 text-slate-300 text-lg">
+            Every Sunday • Saroornagar Lake • 6:00 AM
+          </p>
 
-  <div className="grid md:grid-cols-4 gap-6 mt-14">
-    {[
-      { number: "42+", label: "Members" },
-      { number: "118", label: "Runs Completed" },
-      { number: "612 KM", label: "Distance Covered" },
-      { number: "96", label: "Coffee Conversations" },
-    ].map((item) => (
-      <div
-        key={item.label}
-        className="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 text-center"
-      >
-        <h3 className="text-4xl font-bold text-orange-500">
-          {item.number}
-        </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10">
+            {[
+              { value: '02', label: 'Days' },
+              { value: '13', label: 'Hours' },
+              { value: '42', label: 'Minutes' },
+              { value: '09', label: 'Seconds' },
+            ].map((item) => (
+              <div
+                key={item.label}
+                className="rounded-[2rem] bg-slate-800 border border-slate-700 p-6"
+              >
+                <h3 className="text-4xl font-bold text-orange-400">
+                  {item.value}
+                </h3>
+                <p className="mt-2 text-slate-400">
+                  {item.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-        <p className="mt-3 text-slate-600">
-          {item.label}
-        </p>
-      </div>
-    ))}
-  </div>
-</section>
-      {/* Gallery Placeholder */}
+      {/* Gallery Placeholder */}}
       <section className="max-w-6xl mx-auto px-6 pb-24">
         <div className="text-center">
           <h2 className="text-4xl font-bold">Stories in Motion</h2>
