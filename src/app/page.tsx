@@ -21,7 +21,7 @@ export default function StridesAndStoriesLanding() {
             </p>
 
             <p className="mt-6 text-lg text-slate-600 max-w-2xl leading-relaxed">
-              We’re building meaningful weekends in Saroornagar — easy social runs, coffee, breakfast, and conversations that turn strangers into friends.
+              We’re building meaningful weekends around Saroornagar — easy social runs, coffee, breakfast, and conversations that turn strangers into friends.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -52,7 +52,7 @@ export default function StridesAndStoriesLanding() {
                   <div className="text-6xl mb-5">🌅</div>
                   <h3 className="text-3xl font-bold">Sunday Sunrise Runs</h3>
                   <p className="mt-4 text-slate-600">
-                    Easy-paced 4K • Coffee • Conversations • Community
+                    Easy-paced runs • Coffee • Conversations • Community
                   </p>
                 </div>
               </div>
