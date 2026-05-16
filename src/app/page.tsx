@@ -230,11 +230,11 @@ useEffect(() => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10">
             {[
-              { value: '02', label: 'Days' },
-              { value: '13', label: 'Hours' },
-              { value: '42', label: 'Minutes' },
-              { value: '09', label: 'Seconds' },
-            ].map((item) => (
+  { value: timeLeft.days, label: 'Days' },
+  { value: timeLeft.hours, label: 'Hours' },
+  { value: timeLeft.minutes, label: 'Minutes' },
+  { value: timeLeft.seconds, label: 'Seconds' },
+].map((item) => (
               <div
                 key={item.label}
                 className="rounded-[2rem] bg-slate-800 border border-slate-700 p-6"
