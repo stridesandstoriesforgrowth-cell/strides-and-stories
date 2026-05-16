@@ -1,4 +1,54 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+
 export default function StridesAndStoriesLanding() {
+
+const [timeLeft, setTimeLeft] = useState({
+  days: '00',
+  hours: '00',
+  minutes: '00',
+  seconds: '00',
+});
+
+useEffect(() => {
+  const calculateCountdown = () => {
+    const now = new Date();
+
+    const nextSunday = new Date();
+    nextSunday.setDate(
+      now.getDate() + ((7 - now.getDay()) % 7 || 7)
+    );
+    nextSunday.setHours(6, 0, 0, 0);
+
+    const difference = nextSunday.getTime() - now.getTime();
+
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(
+      (difference / (1000 * 60 * 60)) % 24
+    );
+    const minutes = Math.floor(
+      (difference / (1000 * 60)) % 60
+    );
+    const seconds = Math.floor(
+      (difference / 1000) % 60
+    );
+
+    setTimeLeft({
+      days: String(days).padStart(2, '0'),
+      hours: String(hours).padStart(2, '0'),
+      minutes: String(minutes).padStart(2, '0'),
+      seconds: String(seconds).padStart(2, '0'),
+    });
+  };
+
+  calculateCountdown();
+
+  const timer = setInterval(calculateCountdown, 1000);
+
+  return () => clearInterval(timer);
+}, []);
+
   return (
     <div className="min-h-screen bg-[#faf8f5] text-slate-900 overflow-x-hidden">
       {/* Hero */}
