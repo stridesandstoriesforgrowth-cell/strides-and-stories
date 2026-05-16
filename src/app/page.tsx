@@ -1,4 +1,7 @@
+import { useEffect, useState } from "react";
+
 export default function StridesAndStoriesLanding() {
+ 
   return (
     <div className="min-h-screen bg-[#faf8f5] text-slate-900 overflow-x-hidden">
       {/* Hero */}
@@ -153,7 +156,7 @@ export default function StridesAndStoriesLanding() {
                 RSVP on WhatsApp
               </button>
               <a
-  href="https://www.instagram.com/ram_avsr/"
+  href="https://www.instagram.com/stridesandstories_community/"
   target="_blank"
   rel="noopener noreferrer"
   className="rounded-3xl border border-slate-300 px-8 py-4 font-medium bg-white inline-block text-center"
