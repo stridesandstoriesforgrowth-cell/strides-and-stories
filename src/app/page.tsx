@@ -1,7 +1,4 @@
-import { useEffect, useState } from "react";
-
 export default function StridesAndStoriesLanding() {
- 
   return (
     <div className="min-h-screen bg-[#faf8f5] text-slate-900 overflow-x-hidden">
       {/* Hero */}
@@ -183,10 +180,10 @@ export default function StridesAndStoriesLanding() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10">
             {[
-              { value: '1', label: 'Days' },
-              { value: '2', label: 'Hours' },
-              { value: '3', label: 'Minutes' },
-              { value: '4', label: 'Seconds' },
+              { value: '02', label: 'Days' },
+              { value: '13', label: 'Hours' },
+              { value: '42', label: 'Minutes' },
+              { value: '09', label: 'Seconds' },
             ].map((item) => (
               <div
                 key={item.label}
