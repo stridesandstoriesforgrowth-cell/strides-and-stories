@@ -183,10 +183,10 @@ export default function StridesAndStoriesLanding() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10">
             {[
-              { value: 'timeleft', label: 'Days' },
-              { value: 'timeleft', label: 'Hours' },
-              { value: 'timeleft', label: 'Minutes' },
-              { value: 'timeleft', label: 'Seconds' },
+              { value: '1', label: 'Days' },
+              { value: '2', label: 'Hours' },
+              { value: '3', label: 'Minutes' },
+              { value: '4', label: 'Seconds' },
             ].map((item) => (
               <div
                 key={item.label}
