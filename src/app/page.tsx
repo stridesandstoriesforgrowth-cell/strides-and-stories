@@ -67,11 +67,11 @@ useEffect(() => {
             </h1>
 
             <p className="mt-5 text-2xl text-slate-700 font-medium">
-              Come for the run. Stay for the stories.
+              Run. Connect. Build Stories.
             </p>
 
             <p className="mt-6 text-lg text-slate-600 max-w-2xl leading-relaxed">
-              We’re building meaningful weekends around Saroornagar — easy social runs, coffee, breakfast, and conversations that turn strangers into friends.
+              Sunday sunrise runs — coffee, breakfast, conversations, and meaningful connections.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -81,10 +81,10 @@ useEffect(() => {
   rel="noopener noreferrer"
   className="rounded-3xl bg-slate-900 px-7 py-4 text-white font-medium shadow-xl hover:scale-105 transition-transform inline-block"
 >
-  Join the community on WhatsApp
+  Join this Sunday's Run
 </a>
               <button className="rounded-3xl border border-slate-300 bg-white px-7 py-4 font-medium hover:bg-slate-50 transition">
-                View Route
+                See Route Map →
               </button>
             </div>
 
