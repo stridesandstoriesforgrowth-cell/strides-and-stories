@@ -264,7 +264,7 @@ useEffect(() => {
 
   <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
     <img
-      src="/gallery/run1.jpg"
+      src="/gallery/run1.jpeg"
       alt="Sunday Run"
       className="w-full h-80 object-cover"
     />
@@ -272,7 +272,7 @@ useEffect(() => {
 
   <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
     <img
-      src="/gallery/run2.jpg"
+      src="/gallery/run2.jpeg"
       alt="Community Run"
       className="w-full h-80 object-cover"
     />
@@ -280,7 +280,7 @@ useEffect(() => {
 
   <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
     <img
-      src="/gallery/run3.jpg"
+      src="/gallery/run3.jpeg"
       alt="Coffee After Run"
       className="w-full h-80 object-cover"
     />
