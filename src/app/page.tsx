@@ -56,13 +56,13 @@ useEffect(() => {
         <div className="absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_top_right,rgba(251,146,60,0.18),transparent_30%)]" />
         <div className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-orange-200 blur-3xl opacity-20" />
 
-        <div className="max-w-7xl mx-auto px-6 py-20 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-6 py-28 md:py-36 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <span className="inline-flex rounded-full border border-orange-200 bg-white/80 backdrop-blur px-4 py-2 text-sm shadow-sm">
+            <span className="inline-flex rounded-full border border-orange-200 bg-white/90 backdrop-blur px-4 py-2 text-sm shadow-lg">
               📍 Saroornagar • Weekend Social Run Club
             </span>
 
-            <h1 className="mt-8 text-5xl md:text-7xl font-bold tracking-tight leading-[1.05]">
+            <h1 className="mt-8 text-6xl md:text-8xl font-extrabold tracking-tight leading-[0.95]">
               Strides <span className="text-orange-500">&</span> Stories
             </h1>
 
@@ -79,7 +79,7 @@ useEffect(() => {
   href="https://chat.whatsapp.com/LdLcDdZpvq64VFBKoOrN31"
   target="_blank"
   rel="noopener noreferrer"
-  className="rounded-3xl bg-slate-900 px-7 py-4 text-white font-medium shadow-xl hover:scale-105 transition-transform inline-block"
+  className="rounded-3xl bg-slate-900 px-7 py-4 text-white font-medium shadow-xl hover:scale-105 hover:-translate-y-1 transition-all duration-300 transition-transform inline-block"
 >
   Join this Sunday's Run
 </a>
@@ -261,12 +261,32 @@ useEffect(() => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mt-12">
-          {[1,2,3].map((i) => (
-            <div key={i} className="rounded-[2rem] bg-gradient-to-br from-orange-100 to-stone-100 h-72 flex items-center justify-center text-slate-500 text-lg">
-              Your Run Photos Here
-            </div>
-          ))}
-        </div>
+
+  <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+    <img
+      src="/gallery/run1.jpg"
+      alt="Sunday Run"
+      className="w-full h-80 object-cover"
+    />
+  </div>
+
+  <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+    <img
+      src="/gallery/run2.jpg"
+      alt="Community Run"
+      className="w-full h-80 object-cover"
+    />
+  </div>
+
+  <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+    <img
+      src="/gallery/run3.jpg"
+      alt="Coffee After Run"
+      className="w-full h-80 object-cover"
+    />
+  </div>
+
+</div>
       </section>
     </div>
   )
