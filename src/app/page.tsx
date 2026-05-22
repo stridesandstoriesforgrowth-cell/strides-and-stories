@@ -269,7 +269,7 @@ useEffect(() => {
 
   <div className="rounded-[2rem] overflow-hidden shadow-xl bg-white">
     <img
-      src="/gallery/run1.jpeg"
+      src="/Gallery/run1.jpeg"
       alt="Sunday Run"
       className="w-full h-[320px] object-cover"
     />
@@ -277,7 +277,7 @@ useEffect(() => {
 
   <div className="rounded-[2rem] overflow-hidden shadow-xl bg-white">
     <img
-      src="/gallery/run2.jpeg"
+      src="/Gallery/run2.jpeg"
       alt="Community Run"
       className="w-full h-[320px] object-cover"
     />
@@ -285,7 +285,7 @@ useEffect(() => {
 
   <div className="rounded-[2rem] overflow-hidden shadow-xl bg-white">
     <img
-      src="/gallery/run3.jpeg"
+      src="/Gallery/run3.jpeg"
       alt="Coffee After Run"
       className="w-full h-[320px] object-cover"
     />
