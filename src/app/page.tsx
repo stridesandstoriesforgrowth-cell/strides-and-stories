@@ -252,47 +252,46 @@ useEffect(() => {
           </div>
         </div>
       </section>
+{/* Gallery Section */}
+<section className="max-w-7xl mx-auto px-6 pb-24">
+  <div className="text-center">
+    <h2 className="text-4xl font-bold">
+      Stories in Motion
+    </h2>
 
-      {/* Gallery Placeholder */}
-      <section className="max-w-6xl mx-auto px-6 pb-24">
-        <div className="text-center">
-          <h2 className="text-4xl font-bold">Stories in Motion</h2>
-          <p className="mt-4 text-slate-600 max-w-2xl mx-auto text-lg">
-            Future runs, sunrise moments, conversations, coffee and memories will live here.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-6 mt-12">
-
-  <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-    <Image
-  src="/gallery/run1.jpeg"
-  alt="Sunday Run"
-  width={500}
-  height={400}
-  className="w-full h-80 object-cover"
-/>
+    <p className="mt-4 text-slate-600 max-w-2xl mx-auto text-lg">
+      Future runs, sunrise moments, conversations,
+      coffee and memories will live here.
+    </p>
   </div>
 
-  <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-    <Image
-  src="/gallery/run2.jpeg"
-  alt="Community Run"
-  width={500}
-  height={400}
-  className="w-full h-80 object-cover"
-/>
-  </div>
+  <div className="grid md:grid-cols-3 gap-6 mt-12">
 
-  <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-    <Image
-  src="/gallery/run3.jpeg"
-  alt="Coffee After Run"
-  width={500}
-  height={400}
-  className="w-full h-80 object-cover"
-/>
-  </div>
+    <div className="overflow-hidden rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-white">
+      <img
+        src="http://localhost:3000/gallery/run1.jpeg"
+        alt="Sunday Run"
+        className="w-full h-80 object-cover"
+      />
+    </div>
+
+    <div className="overflow-hidden rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-white">
+      <img
+        src="http://localhost:3000/gallery/run2.jpeg"
+        alt="Community Run"
+        className="w-full h-80 object-cover"
+      />
+    </div>
+
+    <div className="overflow-hidden rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-white">
+      <img
+        src="http://localhost:3000/gallery/run3.jpeg"
+        alt="Coffee After Run"
+        className="w-full h-80 object-cover"
+      />
+    </div>
+
+  
 
 </div>
       </section>
