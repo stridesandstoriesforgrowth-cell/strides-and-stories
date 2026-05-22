@@ -267,31 +267,29 @@ useEffect(() => {
 
   <div className="grid md:grid-cols-3 gap-6 mt-12">
 
-    <div className="overflow-hidden rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-white">
-      <img
-        src="http://localhost:3000/gallery/run1.jpeg"
-        alt="Sunday Run"
-        className="w-full h-80 object-cover"
-      />
-    </div>
+  <div className="rounded-[2rem] overflow-hidden shadow-xl bg-white">
+    <img
+      src="/gallery/run1.jpeg"
+      alt="Sunday Run"
+      className="w-full h-[320px] object-cover"
+    />
+  </div>
 
-    <div className="overflow-hidden rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-white">
-      <img
-        src="http://localhost:3000/gallery/run2.jpeg"
-        alt="Community Run"
-        className="w-full h-80 object-cover"
-      />
-    </div>
+  <div className="rounded-[2rem] overflow-hidden shadow-xl bg-white">
+    <img
+      src="/gallery/run2.jpeg"
+      alt="Community Run"
+      className="w-full h-[320px] object-cover"
+    />
+  </div>
 
-    <div className="overflow-hidden rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-white">
-      <img
-        src="http://localhost:3000/gallery/run3.jpeg"
-        alt="Coffee After Run"
-        className="w-full h-80 object-cover"
-      />
-    </div>
-
-  
+  <div className="rounded-[2rem] overflow-hidden shadow-xl bg-white">
+    <img
+      src="/gallery/run3.jpeg"
+      alt="Coffee After Run"
+      className="w-full h-[320px] object-cover"
+    />
+  </div>
 
 </div>
       </section>
