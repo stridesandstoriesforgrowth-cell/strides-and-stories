@@ -59,7 +59,7 @@ useEffect(() => {
         <div className="max-w-7xl mx-auto px-6 py-28 md:py-36 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="inline-flex rounded-full border border-orange-200 bg-white/90 backdrop-blur px-4 py-2 text-sm shadow-lg">
-              📍 Saroornagar • Weekend Social Run Club
+              📍 Hyderabad • Weekend Social Run Club
             </span>
 
             <h1 className="mt-8 text-6xl md:text-8xl font-extrabold tracking-tight leading-[0.95]">
@@ -191,9 +191,9 @@ useEffect(() => {
                 Sunday Sunrise Run ☀️
               </h3>
               <div className="mt-5 space-y-2 text-slate-600 text-lg">
-                <p>📍 Saroornagar Lake</p>
+                <p>📍 Corporate Bhawan Road - Bandlaguda </p>
                 <p>🕕 Sunday • 6:00 AM</p>
-                <p>🏃 Easy 4K Run</p>
+                <p>🏃 Easy 5K Run</p>
                 <p>☕ Coffee & Conversations After</p>
               </div>
             </div>
@@ -225,7 +225,7 @@ useEffect(() => {
             Countdown to the Next Stride ⏳
           </h2>
           <p className="mt-4 text-slate-300 text-lg">
-            Every Sunday • Saroornagar Lake • 6:00 AM
+            Every Sunday • Corporate Bhawan Road - Bandlaguda • 6:00 AM
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10">
