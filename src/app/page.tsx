@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 
+import Image from 'next/image';
+
 export default function StridesAndStoriesLanding() {
 
 const [timeLeft, setTimeLeft] = useState({
@@ -263,27 +265,33 @@ useEffect(() => {
         <div className="grid md:grid-cols-3 gap-6 mt-12">
 
   <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-    <img
-      src="/gallery/run1.jpeg"
-      alt="Sunday Run"
-      className="w-full h-80 object-cover"
-    />
+    <Image
+  src="/gallery/run1.jpeg"
+  alt="Sunday Run"
+  width={500}
+  height={400}
+  className="w-full h-80 object-cover"
+/>
   </div>
 
   <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-    <img
-      src="/gallery/run2.jpeg"
-      alt="Community Run"
-      className="w-full h-80 object-cover"
-    />
+    <Image
+  src="/gallery/run2.jpeg"
+  alt="Community Run"
+  width={500}
+  height={400}
+  className="w-full h-80 object-cover"
+/>
   </div>
 
   <div className="overflow-hidden rounded-[2rem] shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-    <img
-      src="/gallery/run3.jpeg"
-      alt="Coffee After Run"
-      className="w-full h-80 object-cover"
-    />
+    <Image
+  src="/gallery/run3.jpeg"
+  alt="Coffee After Run"
+  width={500}
+  height={400}
+  className="w-full h-80 object-cover"
+/>
   </div>
 
 </div>
