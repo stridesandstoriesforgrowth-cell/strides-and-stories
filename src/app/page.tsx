@@ -267,7 +267,7 @@ useEffect(() => {
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
 
-  <div className="overflow-hidden rounded-[2rem] shadow-2xl group cursor-pointer bg-white">
+  <div className="overflow-hidden rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer bg-white">
     <img
       src="/Gallery/run1.jpeg"
       alt="Sunday Run"
@@ -275,7 +275,7 @@ useEffect(() => {
     />
   </div>
 
-  <div className="overflow-hidden rounded-[2rem] shadow-2xl group cursor-pointer bg-white">
+  <div className="overflow-hidden rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer bg-white">
     <img
       src="/Gallery/run2.jpeg"
       alt="Community Run"
@@ -283,7 +283,7 @@ useEffect(() => {
     />
   </div>
 
-  <div className="overflow-hidden rounded-[2rem] shadow-2xl group cursor-pointer bg-white">
+  <div className="overflow-hidden rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer bg-white">
     <img
       src="/Gallery/run3.jpeg"
       alt="Coffee After Run"
