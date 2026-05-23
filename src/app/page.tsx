@@ -53,8 +53,59 @@ useEffect(() => {
 
   return (
     <div className="min-h-screen bg-[#faf8f5] text-slate-900 overflow-x-hidden">
+
+      {/* Navbar */}
+<header className="sticky top-0 z-50 backdrop-blur-lg bg-white/80 border-b border-slate-200">
+  <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    {/* Logo */}
+    <div>
+      <h1 className="text-xl font-extrabold tracking-tight">
+        Strides <span className="text-orange-500">&</span> Stories
+      </h1>
+    </div>
+
+    {/* Menu */}
+    <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
+
+      <a
+        href="#about"
+        className="hover:text-orange-500 transition-colors"
+      >
+        About
+      </a>
+
+      <a
+        href="#run"
+        className="hover:text-orange-500 transition-colors"
+      >
+        Sunday Run
+      </a>
+
+      <a
+        href="#gallery"
+        className="hover:text-orange-500 transition-colors"
+      >
+        Gallery
+      </a>
+
+    </div>
+
+    {/* CTA */}
+    <a
+      href="https://chat.whatsapp.com/LdLcDdZpvq64VFBKo0rN31"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="rounded-full bg-slate-900 px-5 py-3 text-white text-sm font-medium hover:scale-105 transition-transform"
+    >
+      Join Community
+    </a>
+
+  </nav>
+</header>
+
       {/* Hero */}
-      <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-amber-50 via-orange-50 to-stone-100">
+      <section id="about" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-amber-50 via-orange-50 to-stone-100">
         <div className="absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_top_right,rgba(251,146,60,0.18),transparent_30%)]" />
         <div className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-orange-200 blur-3xl opacity-20" />
 
@@ -254,7 +305,7 @@ useEffect(() => {
       </section>
 
       {/* Next Run Details */}
-<section className="max-w-6xl mx-auto px-6 py-20">
+<section id="run" className="max-w-6xl mx-auto px-6 py-20">
   <div className="rounded-[2.5rem] bg-slate-900 text-white p-10 md:p-14 shadow-2xl">
 
     <div className="text-center">
@@ -315,7 +366,10 @@ useEffect(() => {
 </section>
 
 {/* Gallery Section */}
-<section className="max-w-7xl mx-auto px-6 pb-24">
+<section
+  id="gallery"
+  className="max-w-7xl
+   mx-auto px-6 pb-24">
   <div className="text-center">
     <h2 className="text-4xl font-bold">
       Stories in Motion
