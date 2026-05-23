@@ -385,7 +385,7 @@ useEffect(() => {
 
   <div className="overflow-hidden rounded-[2.5rem] shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer bg-white">
     <img
-      src="/Gallery/run1.jpeg"
+      src="/Gallery/run2.jpeg"
       alt="Sunday Run"
       className="w-full h-[420px] md:h-[500px] object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-105"
     />
@@ -393,7 +393,7 @@ useEffect(() => {
 
   <div className="overflow-hidden rounded-[2.5rem] shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer bg-white">
     <img
-      src="/Gallery/run2.jpeg"
+      src="/Gallery/run3.jpeg"
       alt="Community Run"
       className="w-full h-[420px] md:h-[500px] object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-105"
     />
@@ -401,7 +401,7 @@ useEffect(() => {
 
   <div className="overflow-hidden rounded-[2.5rem] shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer bg-white">
     <img
-      src="/Gallery/run3.jpeg"
+      src="/Gallery/run4.jpeg"
       alt="Coffee After Run"
       className="w-full h-[500px] object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-105"
     />
