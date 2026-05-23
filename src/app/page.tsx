@@ -271,7 +271,7 @@ useEffect(() => {
     <img
       src="/Gallery/run1.jpeg"
       alt="Sunday Run"
-      className="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
+      className="w-full h-[500px] object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-105"
     />
   </div>
 
@@ -279,7 +279,7 @@ useEffect(() => {
     <img
       src="/Gallery/run2.jpeg"
       alt="Community Run"
-      className="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
+      className="w-full h-[500px] object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-105"
     />
   </div>
 
@@ -287,7 +287,7 @@ useEffect(() => {
     <img
       src="/Gallery/run3.jpeg"
       alt="Coffee After Run"
-      className="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
+      className="w-full h-[500px] object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-105"
     />
 
 </div>
