@@ -6,6 +6,8 @@ import Image from 'next/image';
 
 export default function StridesAndStoriesLanding() {
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
 const [timeLeft, setTimeLeft] = useState({
   days: '00',
   hours: '00',
@@ -54,55 +56,7 @@ useEffect(() => {
   return (
     <div className="min-h-screen bg-[#faf8f5] text-slate-900 overflow-x-hidden scroll-smooth">
 
-      {/* Navbar */}
-<header className="sticky top-0 z-50 backdrop-blur-lg bg-white/80 border-b border-slate-200">
-  <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-
-    {/* Logo */}
-    <div>
-      <h1 className="text-xl font-extrabold tracking-tight">
-        Strides <span className="text-orange-500">&</span> Stories
-      </h1>
-    </div>
-
-    {/* Menu */}
-    <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
-
-      <a
-        href="#about"
-        className="hover:text-orange-500 transition-colors"
-      >
-        About
-      </a>
-
-      <a
-        href="#run"
-        className="hover:text-orange-500 transition-colors"
-      >
-        Sunday Run
-      </a>
-
-      <a
-        href="#gallery"
-        className="hover:text-orange-500 transition-colors"
-      >
-        Gallery
-      </a>
-
-    </div>
-
-    {/* CTA */}
-    <a
-      href="https://chat.whatsapp.com/LdLcDdZpvq64VFBKo0rN31"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="rounded-full bg-slate-900 px-5 py-3 text-white text-sm font-medium hover:scale-105 transition-transform"
-    >
-      Join Community
-    </a>
-
-  </nav>
-</header>
+      const [menuOpen, setMenuOpen] = useState(false);
 
       {/* Hero */}
       <section id="about" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-amber-50 via-orange-50 to-stone-100">
