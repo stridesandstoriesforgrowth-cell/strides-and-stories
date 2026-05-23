@@ -52,7 +52,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className="min-h-screen bg-[#faf8f5] text-slate-900 overflow-x-hidden">
+    <div className="min-h-screen bg-[#faf8f5] text-slate-900 overflow-x-hidden scroll-smooth">
 
       {/* Navbar */}
 <header className="sticky top-0 z-50 backdrop-blur-lg bg-white/80 border-b border-slate-200">
