@@ -109,13 +109,13 @@ useEffect(() => {
         <div className="absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_top_right,rgba(251,146,60,0.18),transparent_30%)]" />
         <div className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-orange-200 blur-3xl opacity-20" />
 
-        <div className="max-w-7xl mx-auto px-6 py-28 md:py-36 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-6 py-20 md:py-36 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="inline-flex rounded-full border border-orange-200 bg-white/90 backdrop-blur px-4 py-2 text-sm shadow-lg">
               📍 Hyderabad • Weekend Social Run Club
             </span>
 
-            <h1 className="mt-8 text-6xl md:text-8xl font-extrabold tracking-tight leading-[0.95]">
+            <h1 className="mt-8 text-5xl sm:text-6xl md:text-8xl font-extrabold tracking-tight leading-[1]">
               Strides <span className="text-orange-500">&</span> Stories
             </h1>
 
@@ -132,7 +132,7 @@ useEffect(() => {
   href="https://chat.whatsapp.com/LdLcDdZpvq64VFBKoOrN31"
   target="_blank"
   rel="noopener noreferrer"
-  className="rounded-3xl bg-slate-900 px-7 py-4 text-white font-medium shadow-xl hover:scale-105 hover:-translate-y-1 transition-all duration-300 transition-transform inline-block"
+  className="w-full sm:w-auto rounded-3xl bg-slate-900 px-7 py-4 text-white font-medium shadow-xl hover:scale-105 hover:-translate-y-1 transition-all duration-300 transition-transform inline-block"
 >
   Join this Sunday's Run
 </a>
