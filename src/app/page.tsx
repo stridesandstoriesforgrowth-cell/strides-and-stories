@@ -252,6 +252,68 @@ useEffect(() => {
           </div>
         </div>
       </section>
+
+      {/* Next Run Details */}
+<section className="max-w-6xl mx-auto px-6 py-20">
+  <div className="rounded-[2.5rem] bg-slate-900 text-white p-10 md:p-14 shadow-2xl">
+
+    <div className="text-center">
+      <p className="uppercase tracking-[0.2em] text-orange-400 text-sm font-semibold">
+        Join This Sunday
+      </p>
+
+      <h2 className="mt-4 text-4xl md:text-5xl font-bold">
+        Next Sunday Run 🏃
+      </h2>
+
+      <p className="mt-4 text-slate-300 text-lg">
+        A relaxed social run designed for meaningful
+        conversations, movement, and coffee after.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-2 gap-6 mt-12">
+
+      <div className="rounded-[2rem] bg-slate-800 p-6">
+        <h3 className="text-xl font-semibold">
+          📍 Meeting Point
+        </h3>
+        <p className="mt-2 text-slate-300">
+          Saroornagar Lake Entrance
+        </p>
+      </div>
+
+      <div className="rounded-[2rem] bg-slate-800 p-6">
+        <h3 className="text-xl font-semibold">
+          ⏰ Time
+        </h3>
+        <p className="mt-2 text-slate-300">
+          Sunday • 6:00 AM
+        </p>
+      </div>
+
+      <div className="rounded-[2rem] bg-slate-800 p-6">
+        <h3 className="text-xl font-semibold">
+          🏃 Distance
+        </h3>
+        <p className="mt-2 text-slate-300">
+          5 KM Social Run
+        </p>
+      </div>
+
+      <div className="rounded-[2rem] bg-slate-800 p-6">
+        <h3 className="text-xl font-semibold">
+          ☕ Coffee After
+        </h3>
+        <p className="mt-2 text-slate-300">
+          Yes — breakfast & conversations
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 {/* Gallery Section */}
 <section className="max-w-7xl mx-auto px-6 pb-24">
   <div className="text-center">
