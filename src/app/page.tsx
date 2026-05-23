@@ -267,28 +267,35 @@ useEffect(() => {
 
   <div className="grid md:grid-cols-3 gap-6 mt-12">
 
-  <div className="grid md:grid-cols-3 gap-6 mt-12">
+  {/* Big Left Image */}
+  <div className="md:col-span-2 overflow-hidden rounded-[2rem] shadow-2xl group cursor-pointer">
+    <img
+      src="/Gallery/run1.jpeg"
+      alt="Sunday Run"
+      className="w-full h-[520px] object-cover transition-transform duration-500 group-hover:scale-105"
+    />
+  </div>
 
-  <img
-    src="/Gallery/run1.jpeg"
-    alt="Sunday Run"
-    className="rounded-[2rem] shadow-xl w-full h-[320px] object-cover"
-  />
+  {/* Right Side Stack */}
+  <div className="flex flex-col gap-6">
 
-  <img
-    src="/Gallery/run2.jpeg"
-    alt="Community Run"
-    className="rounded-[2rem] shadow-xl w-full h-[320px] object-cover"
-  />
+    <div className="overflow-hidden rounded-[2rem] shadow-2xl group cursor-pointer">
+      <img
+        src="/Gallery/run2.jpeg"
+        alt="Community Run"
+        className="w-full h-[248px] object-cover transition-transform duration-500 group-hover:scale-105"
+      />
+    </div>
 
-  <img
-    src="/Gallery/run3.jpeg"
-    alt="Coffee After Run"
-    className="rounded-[2rem] shadow-xl w-full h-[320px] object-cover"
-  />
+    <div className="overflow-hidden rounded-[2rem] shadow-2xl group cursor-pointer">
+      <img
+        src="/Gallery/run3.jpeg"
+        alt="Coffee After Run"
+        className="w-full h-[248px] object-cover transition-transform duration-500 group-hover:scale-105"
+      />
+    </div>
 
 </div>
-
 </div>
       </section>
     </div>
